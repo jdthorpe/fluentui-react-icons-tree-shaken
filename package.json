@@ -1,0 +1,21 @@
+{
+  "name": "my-icons",
+  "version": "1.0.0",
+  "description": "A few of my favorite Fluentui/react-icons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "Jason Thorpe",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@fluentui/react-icons": "^2.0.303",
+    "@rollup/plugin-commonjs": "^28.0.5",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.43.0",
+    "typescript": "^5.8.3"
+  }
+}
